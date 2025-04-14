@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cds-metadata-generator/static/css/main.ed38ccc1.css",
+    "main.js": "/cds-metadata-generator/static/js/main.772bd8d3.js",
+    "index.html": "/cds-metadata-generator/index.html",
+    "main.ed38ccc1.css.map": "/cds-metadata-generator/static/css/main.ed38ccc1.css.map",
+    "main.772bd8d3.js.map": "/cds-metadata-generator/static/js/main.772bd8d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed38ccc1.css",
+    "static/js/main.772bd8d3.js"
+  ]
+}
