@@ -1,0 +1,81 @@
+/* SortingConfiguration.css */
+.sorting-configuration {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .sorting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+  
+  .sorting-header h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .add-sort-button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .add-sort-button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .add-sort-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .sort-fields {
+    padding: 8px 12px;
+  }
+  
+  .sort-field-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+  
+  .sort-field-item select {
+    padding: 4px 6px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  
+  .sort-field-item select:first-child {
+    flex-grow: 1;
+  }
+  
+  .remove-sort-btn {
+    background: none;
+    border: none;
+    color: #dc3545;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+  
+  .empty-sort-config {
+    padding: 10px;
+    color: #6c757d;
+    font-style: italic;
+    text-align: center;
+  }
